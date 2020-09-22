@@ -62,7 +62,7 @@ function readmePrompts() {
     // Questions
     {
         type: "input",
-        name: "github",
+        name: "username",
         message: "What is your GitHub profile?"
     },
 

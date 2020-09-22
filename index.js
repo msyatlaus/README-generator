@@ -1,6 +1,6 @@
 var inquirer = require("inquirer");
 var fs = require('fs');
-const generateReadme = require("generateMarkdown.js");
+const generateReadme = require("/Users/bradleyguidry/README-generator/utils");
 
 
 
@@ -72,7 +72,8 @@ function questions() {
         message: "What is your email?"
     },
 
-
+]);
+}
 
 
 
@@ -85,7 +86,7 @@ function writeToFile(fileName, data) {
       }
       console.log("You have successfully written your README file");
     });
-  };
+  }
   
   
   async function init() {

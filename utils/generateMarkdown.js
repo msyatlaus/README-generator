@@ -20,7 +20,7 @@ function generateReadme(data) {
     ## Usage
     Examples of how to use this program: ${data.usage}
     ## Installation
-    Packages required to run this program are: ${data.packages}
+    
       
     ## Tests
     To test, run the following command: ${data.test}
@@ -28,12 +28,11 @@ function generateReadme(data) {
     ## License
     ${data.license}
     ## Contributors
-    ${data.contributer}
+    ${data.contribution}
   
     ## Contact
     \n![Badge](${gitHub}) 
     \n![Profile Image](${avatar})
-    \nView the project live thanks to GitHub Pages: ${data.url}
     \nIf you have any questions, contact the author directly at ${data.email}.`;
 }
 

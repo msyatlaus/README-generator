@@ -1,10 +1,10 @@
 var inquirer = require("inquirer");
 var fs = require('fs');
-const generateReadme = require("/Users/bradleyguidry/README-generator/utils");
+const generateReadme = require("./utils/generateMarkdown");
 
 
 
-function questions() { 
+function readmePrompts() { 
     return inquirer.prompt([
         {
         type: "input",

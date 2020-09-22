@@ -2,7 +2,7 @@
     # Readme Generator
     
     ## Description
-      An automated Readme generator using node
+      A simple readme generator using node
   
     ## Table of Contents
     - [Installation](#installation)
